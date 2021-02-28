@@ -55,4 +55,4 @@
 
 
 ## Data source:
-[figshare](https://figshare.com/projects/smart-protein/99116), key data files <br>
+[figshare](https://figshare.com/projects/smart-protein/99116), Key data files <br>
