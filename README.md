@@ -27,7 +27,7 @@
 ## R codes:
 
 
->> ### To install this package, start R (version "4.0") 
+>> ### Start R (version "4.0") 
 >> ### differential_expression
 >>>> #### differential_expression by [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 >> ### enrichment_analysis
