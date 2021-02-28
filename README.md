@@ -22,6 +22,13 @@
 >>>> ####
 
 ## R codes:
+<pre><span class="pl-c"><span class="pl-c">#</span> Install devtools from CRAN</span>
+install.packages(<span class="pl-s"><span class="pl-pds">"</span>devtools<span class="pl-pds">"</span></span>)
+
+<span class="pl-c"><span class="pl-c">#</span> Or the development version from GitHub:</span>
+<span class="pl-c"><span class="pl-c">#</span> install.packages("devtools")</span>
+<span class="pl-e">devtools</span><span class="pl-k">::</span>install_github(<span class="pl-s"><span class="pl-pds">"</span>r-lib/devtools<span class="pl-pds">"</span></span>)</pre>
+
 >> ### To install this package, start R (version "4.0") 
 >> ### differential_expression
 >>>> #### differential_expression by [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
