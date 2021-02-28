@@ -1,0 +1,3 @@
+（1）mRNA Differential Expression
+This sentence provides a list of tissues for which a gene is positively differentially expressed, based on RNA-seq reads from GTEx. Fold change values of each sample were calculated using DESeq software, each sample reads were compared with all GTEx samples reads. Genes with fold change value >4 in a tissue are defined as positively differentially expressed in that tissue. Genes with maximal read count across tissues lower than 5 were excluded from calculations.
+（2）基于基因GO与KEGG数据的富集分析
