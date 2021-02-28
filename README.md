@@ -1,6 +1,7 @@
 # smart-protein
 
 Citation
+
 Protein deep profile and model predictions for identifying the causal genes of male infertility based on deep learning
 
 Fang Xu#, Ganggang Guo#, Feida Zhu, Xiaojun Tan, Liqing Fan*
