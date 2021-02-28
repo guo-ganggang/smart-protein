@@ -12,17 +12,17 @@
 <a href="https://pypi.org/project/requests" rel="nofollow"><img alt="Supported Versions" src="https://warehouse-camo.ingress.cmh1.psfhosted.org/508b21fb70f4bc69e3d62730b3ac3c307a209bca/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f72657175657374732e737667"></a>
 
 > ### a_data_object_standardization
->>>> #### 
+>>>> #### Data object (Proteins/genes) standardization
 > ### b_deep_profiling
->>>> #### 
+>>>> #### Protein deep profiling
 > ### c_data_labeling
->>>> #### 
+>>>> #### Training data annotation
 > ### d_causal_genes_identifying
->>>> #### 
+>>>> #### Causal genes identifying
 > ### e_pathological_process_underlying
->>>> #### 
+>>>> #### Pathological process underlying
 > ### f_recommendation_system
->>>> ####
+>>>> #### Recommendation
 
 ## R codes:
 
@@ -44,9 +44,9 @@
 
 ## C++ packages:
 
-[LargeVis](https://github.com/lferry007/LargeVis),<br>
+[LargeVis](https://github.com/lferry007/LargeVis), Dimensionality reduction <br>
 
-[node2vec](https://github.com/snap-stanford/snap/tree/master/examples/node2vec),<br>
+[node2vec](https://github.com/snap-stanford/snap/tree/master/examples/node2vec), Network vectorization<br>
 
 
 ## Web-based visualization library for browser:
