@@ -21,10 +21,17 @@ Fang Xu#, Ganggang Guo#, Feida Zhu, Xiaojun Tan, Liqing Fan*
 
 ## R codes:
 >> ### differential_expression
->>>> #### differential_expression by DESeq2
+>>>> #### differential_expression by [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 >> ### enrichment_analysis
 >>>> #### enrichment analysis support by [david](https://david.ncifcrf.gov/tools.jsp)
+>>>>>>>> ##### library(stringi)
+>>>>>>>> ##### library(ggplot2)
+>>>>>>>> ##### library(dplyr)
+>>>>>>>> ##### library(farver)
+>>>>>>>> ##### library(labeling)
 >>>> #### enrichment analysis support by [ReactomePA](https://bioconductor.org/packages/release/bioc/vignettes/ReactomePA/inst/doc/ReactomePA.html)
+>>>>>>>> ##### library(ReactomePA)
+>>>>>>>> ##### library(ggplot2)
 
 
 ## C++ packages:
