@@ -7,7 +7,7 @@ library("amap")
 library("ggplot2")
 library("BiocParallel")
 register(SnowParam(126L,type="MPI"))
-setwd("F:/new_disease/3_label_properties/ovary_hyperexpression")
+setwd("./ovary_hyperexpression")
 files <- c("ovary.csv","testis.csv","adipose_subcutaneous.csv","adipose_visceral_omentum.csv","adrenal_gland.csv","artery_aorta.csv","artery_coronary.csv","artery_tibial.csv","bladder.csv","brain_amygdala.csv","brain_anterior_cingulate_cortex_ba24.csv","brain_caudate_basal_ganglia.csv","brain_cerebellar_hemisphere.csv","brain_cerebellum.csv","brain_cortex.csv","brain_frontal_cortex_ba9.csv","brain_hippocampus.csv","brain_hypothalamus.csv","brain_nucleus_accumbens_basal_ganglia.csv","brain_putamen_basal_ganglia.csv","brain_spinal_cord_cervical_c_1.csv","brain_substantia_nigra.csv","breast_mammary_tissue.csv","cells_ebv_transformed_lymphocytes.csv","cells_transformed_fibroblasts.csv","cervix_ectocervix.csv","cervix_endocervix.csv","colon_sigmoid.csv","colon_transverse.csv","esophagus_gastroesophageal_junction.csv","esophagus_mucosa.csv","esophagus_muscularis.csv","fallopian_tube.csv","heart_atrial_appendage.csv","heart_left_ventricle.csv","kidney_cortex.csv","liver.csv","lung.csv","minor_salivary_gland.csv","muscle_skeletal.csv","nerve_tibial.csv","pancreas.csv","pituitary.csv","prostate.csv","skin_not_sun_exposed_suprapubic.csv","skin_sun_exposed_lower_leg.csv","small_intestine_terminal_ileum.csv","spleen.csv","stomach.csv","thyroid.csv","uterus.csv","vagina.csv","whole_blood.csv")
 feature_count = list()
 testis_samples_expression <- read.table(files[1], header=TRUE, sep=",", na.strings=" ")[,1:6]
@@ -39,7 +39,7 @@ dds<-DESeq(dds)
 # diff_gene_deseq2 <-subset(res_2, padj < 0.05 & abs(log2FoldChange) > 4)
 # out_result_file_name = paste(samplenames[1],samplenames[3], sep = "_")
 # write.csv(diff_gene_deseq2,file= out_result_file_name)
-setwd("F:/new_disease/3_label_properties/ovary_hyperexpression/results_fc2")
+setwd("./ovary_hyperexpression/results_fc2")
 for (j in 2:length(files)){
   res <- results(dds,contrast = c("condition",samplenames[1],samplenames[j]))
   diff_gene_deseq2 <-subset(res, abs(log2FoldChange) > 1) #padj < 0.05 & 
