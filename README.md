@@ -20,9 +20,11 @@ Fang Xu#, Ganggang Guo#, Feida Zhu, Xiaojun Tan, Liqing Fan*
 > ### f_recommendation_system
 
 ## R codes:
+>> ### differential_expression
+>>>> #### differential_expression by DESeq2
 >> ### enrichment_analysis
->> #### enrichment analysis support by david
->> #### enrichment analysis support by reactome
+>>>> #### enrichment analysis support by [david](https://david.ncifcrf.gov/tools.jsp)
+>>>> #### enrichment analysis support by [ReactomePA](https://bioconductor.org/packages/release/bioc/vignettes/ReactomePA/inst/doc/ReactomePA.html)
 
 
 ## C++ packages:
