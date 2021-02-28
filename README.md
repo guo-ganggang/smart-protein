@@ -2,6 +2,9 @@
 
 ## Citation:
 
+<p><a href="https://rawgit.com/rstudio/cheatsheets/master/package-development.pdf" rel="nofollow"><img src="https://raw.githubusercontent.com/batpigandme/cheatsheets/1c942c36846559b3e8efbd40d023bc351aeed6ba/pngs/thumbnails/package-development-thumbs.png" height="252" style="max-width:100%;"></a></p>
+
+
 > ### Protein deep profile and model predictions for identifying the causal genes of male infertility based on deep learning
 > ### Fang Xu#, Ganggang Guo#, Feida Zhu, Xiaojun Tan, Liqing Fan*
 
