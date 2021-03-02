@@ -29,10 +29,10 @@
 
 >> ### Start R (version "4.0") 
 >> ### differential_expression
->>>> #### differential_expression by [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
+>>>> #### differential expression by [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 >> ### enrichment_analysis
->>>> #### enrichment analysis support by [david](https://david.ncifcrf.gov/tools.jsp)
->>>> #### enrichment analysis support by [ReactomePA](https://bioconductor.org/packages/release/bioc/vignettes/ReactomePA/inst/doc/ReactomePA.html)
+>>>> #### enrichment analysis by [david](https://david.ncifcrf.gov/tools.jsp)
+>>>> #### enrichment analysis by [ReactomePA](https://bioconductor.org/packages/release/bioc/vignettes/ReactomePA/inst/doc/ReactomePA.html)
 
 
 ## C++ packages:
